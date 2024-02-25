@@ -12,13 +12,15 @@ Enhance a function with Improved Space Complexity.
 
 
 ```java
-public class ArraySum {
-    public static int sumArray(int[] arr) {
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+public class ArrayDuplicates {
+    public static boolean containsDuplicates(int[] arr) {
+        Arrays.sort(arr);
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] == arr[i - 1]) {
+                return true;
+            }
         }
-        return sum;
+        return false;
     }
 }
 ```
