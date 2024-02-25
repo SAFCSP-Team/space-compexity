@@ -1,4 +1,4 @@
-public class ArrayDuplicates {
+public class ArrDuplicates {
     public static boolean containsDuplicates(int[] arr) {
         Set<Integer> set = new HashSet<>();
         for (int num : arr) {
