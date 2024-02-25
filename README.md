@@ -14,11 +14,12 @@ Enhance a function with Improved Space Complexity.
 ```java
 public class ArrayDuplicates {
     public static boolean containsDuplicates(int[] arr) {
-        Arrays.sort(arr);
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] == arr[i - 1]) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            if (set.contains(num)) {
                 return true;
             }
+            set.add(num);
         }
         return false;
     }
