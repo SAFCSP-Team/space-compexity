@@ -1,7 +1,9 @@
-public int sum(int[] arr) {
-    int sum = 0;
+public int[] reverseArray(int[] arr) {
+    int[] reversed = new int[arr.length];
+    int j = arr.length - 1;
     for (int i = 0; i < arr.length; i++) {
-        sum += arr[i];
+        reversed[j] = arr[i];
+        j--;
     }
-    return sum;
+    return reversed;
 }
