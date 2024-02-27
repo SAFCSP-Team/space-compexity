@@ -6,7 +6,7 @@ In this project, we will learn how to improve the space complexity.
 
 **Problem**
 
-Enhance a function with Improved Space Complexity to O(1).
+Enhance a function with Improved Space Complexity.
 
 **Implementation**
 
