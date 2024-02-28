@@ -6,10 +6,11 @@ In this project, we will learn how to improve the space complexity.
 
 **Problem**
 
-Enhance a function with Improved Space Complexity to O(1)
+Enhance a function with Improved Space Complexity to O(1).
 
 **Implementation**
 
+Enhance the function without using new array.
 ```java
 public int[] reverseArray(int[] arr) {
     int[] reversed = new int[arr.length];
