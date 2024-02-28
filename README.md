@@ -6,11 +6,12 @@ In this project, we will learn how to improve the space complexity.
 
 **Problem**
 
-Enhance a function with Improved Space Complexity to O(1).
+Modify the original array directly without requiring any new array and additional space.
 
 **Implementation**
 
-Enhance the function without using new array.
+> Hint: use two pointers, start and end, which initially point to the first and last elements of the array then swap them.
+
 ```java
 public int[] reverseArray(int[] arr) {
     int[] reversed = new int[arr.length];
@@ -22,4 +23,4 @@ public int[] reverseArray(int[] arr) {
     return reversed;
 }
 ```
-> create a new issue to upload your answer.
+
