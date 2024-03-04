@@ -10,6 +10,7 @@ Enhance the space complexity of `reverseArray` function.
 
 **Implementation**
 
+* you can eliminate the creation of the new array.
 > Hint: use two pointers, start and end, which initially point to the first and last elements of the array then swap them.
 
 ```java
