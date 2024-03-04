@@ -6,7 +6,7 @@ In this project, we will learn how to improve the space complexity.
 
 **Problem**
 
-Modify the original array directly without requiring any new array and additional space.
+Enhance the space complexity of `reverseArray` function.
 
 **Implementation**
 
