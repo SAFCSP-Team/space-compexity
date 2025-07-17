@@ -11,7 +11,6 @@ Enhance the space complexity of `reverseArray` function.
 **Implementation**
 
 * Eliminate the creation of the new array.
-> Hint: use two pointers, start and end, which initially point to the first and last elements of the array then swap them.
 
 ```java
 public int[] reverseArray(int[] arr) {
@@ -24,4 +23,5 @@ public int[] reverseArray(int[] arr) {
     return reversed;
 }
 ```
+> Create a fork of the project and submit a pull request containing your solution.
 
